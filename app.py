@@ -70,12 +70,11 @@ app.layout = html.Div([
             max = df['TIME'].max(),
             value = df['TIME'].max(),
             step = None,
-            marks = {str(year): str(year) for year in df['TIME'].unique()}
+            marks = {str(year): str(year) for year in df['TIME'].unique()},
+            style={'marginTop': 40, 'marginBottom': 75, 'marginLeft': 50, 'marginRight': 50},
         )
     ],
-           style={'marginTop': 20, 'marginBottom': 75, 'marginLeft': 50, 'marginRight': 50}),
-    html.Div([
-    ],
+
 
     ),
     html.Div([
