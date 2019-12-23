@@ -73,12 +73,9 @@ app.layout = html.Div([
             marks = {str(year): str(year) for year in df['TIME'].unique()}
         )
     ],
-        style = {'margin' : '10px 40px'}
+        style = {'margin' : '40px 80px'}
     ),
-    html.Div([
-    ],
 
-    ),
     html.Div([
       html.H1('EUROSTAT DATA Graph 2', style={'text-align': 'center', 'marginBottom': 25,'font-family': 'Arial'}),
 
