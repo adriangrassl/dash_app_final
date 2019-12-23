@@ -73,7 +73,7 @@ app.layout = html.Div([
             marks = {str(year): str(year) for year in df['TIME'].unique()}
         )
     ],
-        style = {'margin' : '10px 40px'}
+
     ),
     html.Div([
     ],
