@@ -28,7 +28,7 @@ available_countries = df['GEO'].unique()
 
 app.layout = html.Div([
     html.Div([
-      html.H1('EUROSTAT DATA Graph 1', style={'text-align': 'center', 'marginBottom': 25,'font-family': 'Arial'}),
+      html.H1('EUROSTAT DATA: Scatterplot + Time Slide', style={'text-align': 'center', 'marginBottom': 25,}),
 
         html.Div([
             dcc.Dropdown(
@@ -77,7 +77,7 @@ app.layout = html.Div([
     ),
 
     html.Div([
-      html.H1('EUROSTAT DATA Graph 2', style={'text-align': 'center', 'marginBottom': 25,'font-family': 'Arial'}),
+      html.H1('EUROSTAT DATA: Line Chart', style={'text-align': 'center', 'marginBottom': 25,}),
 
         html.Div([
             dcc.Dropdown(
