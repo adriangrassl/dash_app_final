@@ -161,7 +161,6 @@ def update_graph(country_name, yaxis_column_name):
         'layout': go.Layout(
             yaxis = {
                 'title': yaxis_column_name,
-                'titlefont': {'size': 10},
                 'type': 'linear'
             },
             margin = {'l': 40, 'b': 40, 't': 40, 'r': 40},
